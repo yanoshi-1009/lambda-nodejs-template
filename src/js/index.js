@@ -1,5 +1,4 @@
-// import '../style/style.scss';
 
-(() => {
+(async () => {
   'use strict';
 })();
