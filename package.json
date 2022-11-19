@@ -15,7 +15,7 @@
   "description": "This is my nodejs template.",
   "devDependencies": {
     "@cybozu/eslint-config": "18.0.0",
-    "eslint": "8.27.0"
+    "eslint": "8.28.0"
   },
   "dependencies": {
     "@playwright/test": "1.28.0",
