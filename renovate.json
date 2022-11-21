@@ -1,14 +1,15 @@
 {
   "extends": [
     "config:base",
-    ":pinAllExceptPeerDependencies",
     ":automergeMinor",
     ":maintainLockFilesWeekly",
     ":skipStatusChecks"
   ],
   "timezone": "Asia/Tokyo",
-  "schedule": "before 2am",
+  "schedule": "before 6am",
   "labels": ["renovate"],
+  "assignees": ["yanoshi-1009"],
+  "rangeStrategy": "bump",
   "lockFileMaintenance": {
     "automerge": true
   },
