@@ -14,7 +14,7 @@
   "license": "MIT",
   "description": "This is my nodejs template.",
   "devDependencies": {
-    "@cybozu/eslint-config": "22.0.0",
+    "@cybozu/eslint-config": "22.0.1",
     "eslint": "8.48.0"
   },
   "dependencies": {
