@@ -18,8 +18,8 @@
     "eslint": "8.49.0"
   },
   "dependencies": {
-    "@playwright/test": "1.38.0",
+    "@playwright/test": "1.38.1",
     "playwright-aws-lambda": "0.10.0",
-    "playwright-core": "1.38.0"
+    "playwright-core": "1.38.1"
   }
 }
