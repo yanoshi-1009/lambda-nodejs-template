@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@playwright/test": "1.45.3",
-    "playwright-aws-lambda": "0.10.0",
+    "playwright-aws-lambda": "0.11.0",
     "playwright-core": "1.45.3"
   }
 }
