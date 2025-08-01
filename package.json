@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": ">=22.17.1"
+    "node": ">=22.18.0"
   },
   "keywords": [],
   "repository": {
