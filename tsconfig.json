@@ -14,11 +14,5 @@
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true
   },
-  "files": [
-    "./node_modules/@kintone/dts-gen/kintone.d.ts",
-    "./src/types/company.d.ts",
-    "./src/types/contact.d.ts",
-    "./src/types/deal.d.ts"
-  ],
-  "include": ["./src/js/**/*.ts"]
+  "include": ["./src/**/*.ts"]
 }
