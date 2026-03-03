@@ -1,3 +1,3 @@
-const lambda = require("./index");
+import { handler } from "../src/index.js";
 
-lambda.handler();
+await handler({} as Parameters<typeof handler>[0]);
