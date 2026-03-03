@@ -4,7 +4,7 @@
   "main": "index.js",
   "engines": {
     "node": ">=24.14.0",
-    "pnpm": ">=10.0.0"
+    "pnpm": ">=10.30.3"
   },
   "scripts": {
     "build": "node ./scripts/esbuild/build.mjs && zip -rj dist/build.zip dist/index.mjs"
