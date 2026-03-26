@@ -17,6 +17,10 @@
     {
       "matchPackagePatterns": ["@cybozu/eslint-config"],
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["node", "pnpm"],
+      "enabled": false
     }
   ]
 }

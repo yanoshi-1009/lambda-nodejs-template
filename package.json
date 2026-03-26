@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": ">=24.14.1",
-    "pnpm": ">=10.33.0"
+    "node": ">=24.0.0",
+    "pnpm": ">=10.0.0"
   },
+  "type": "module",
   "scripts": {
-    "build": "node ./scripts/esbuild/build.mjs && zip -rj dist/build.zip dist/index.mjs"
+    "build": "node ./scripts/esbuild/build.ts && zip -rj dist/build.zip dist/index.mjs"
   },
   "keywords": [],
   "repository": {

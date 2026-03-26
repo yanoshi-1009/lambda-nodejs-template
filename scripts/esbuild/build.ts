@@ -8,6 +8,7 @@ const context = await esbuild.context({
   bundle: true,
   format: "esm",
   outdir: "./dist",
+  // Use .mjs so the file is recognized as ESM without relying on package.json "type" field, and also for Lambda to treat it as ESM
   outExtension: { ".js": ".mjs" }
 });
 
