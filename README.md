@@ -119,6 +119,20 @@ pnpm prettier --check src/
 pnpm prettier --write src/
 ```
 
+## Optional: Browser Automation (Playwright)
+
+If your Lambda function requires browser automation or web scraping, install the following packages:
+
+```bash
+pnpm add @playwright/test playwright-core playwright-aws-lambda
+```
+
+| Package                 | Description                                          |
+| ----------------------- | ---------------------------------------------------- |
+| `@playwright/test`      | Playwright test runner and API                       |
+| `playwright-core`       | Playwright core browser automation library           |
+| `playwright-aws-lambda` | Playwright helper for running Chromium on AWS Lambda |
+
 ## License
 
 MIT
