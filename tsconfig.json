@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "esnext",
     "module": "esnext",
     "moduleResolution": "bundler",
+    "lib": ["esnext"],
     "strict": true,
+    "verbatimModuleSyntax": true,
     "noEmit": true,
-    "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": true,
     "noImplicitReturns": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
