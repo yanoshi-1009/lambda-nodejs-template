@@ -12,19 +12,19 @@ importers:
         specifier: 25.0.1
         version: 25.0.1(@typescript-eslint/utils@8.57.2(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(prettier@3.8.1)(typescript@5.9.3)
       '@types/aws-lambda':
-        specifier: ^8.10.161
+        specifier: 8.10.161
         version: 8.10.161
       '@types/node':
-        specifier: ^25.5.0
+        specifier: 25.5.0
         version: 25.5.0
       esbuild:
-        specifier: ^0.27.4
+        specifier: 0.27.4
         version: 0.27.4
       eslint:
         specifier: 8.57.1
         version: 8.57.1
       prettier:
-        specifier: ^3.8.1
+        specifier: 3.8.1
         version: 3.8.1
 
 packages:
