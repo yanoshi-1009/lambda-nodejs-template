@@ -20,11 +20,11 @@
   "description": "This is my nodejs template.",
   "devDependencies": {
     "@cybozu/eslint-config": "25.0.1",
-    "@types/aws-lambda": "^8.10.161",
-    "@types/node": "^25.5.0",
-    "esbuild": "^0.27.4",
+    "@types/aws-lambda": "8.10.161",
+    "@types/node": "25.5.0",
+    "esbuild": "0.27.4",
     "eslint": "8.57.1",
-    "prettier": "^3.8.1"
+    "prettier": "3.8.1"
   },
   "dependencies": {}
 }
