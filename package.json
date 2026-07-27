@@ -27,7 +27,7 @@
     "build": "node ./scripts/esbuild/build.ts && zip -rj dist/build.zip dist/index.mjs"
   },
   "devDependencies": {
-    "@cybozu/eslint-config": "25.0.1",
+    "@cybozu/eslint-config": "26.0.0",
     "@types/aws-lambda": "8.10.162",
     "@types/node": "25.9.5",
     "esbuild": "0.28.1",
