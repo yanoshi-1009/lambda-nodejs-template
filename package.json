@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@cybozu/eslint-config": "26.0.0",
-    "@types/aws-lambda": "8.10.162",
+    "@types/aws-lambda": "8.10.163",
     "@types/node": "25.9.5",
     "esbuild": "0.28.2",
     "eslint": "9.39.5",
